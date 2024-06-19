@@ -1,0 +1,115 @@
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    font-family: Jomolhari;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 20px; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #000;
+}
+
+.logo {
+    color: #fff; 
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    color: #fff; 
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+}
+
+h1{
+    color: white;
+    color: #FFF;
+
+font-size: 46px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.carousel-container {
+    position: relative;
+    margin-top: 20px;
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.card {
+    flex: 0 0 276px;
+    width: 276px;
+    height: 336px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    box-sizing: border-box;
+    margin-right: 20px;
+    border: 3px solid #F0DE36;
+background: #1E1E1E;
+
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card h3 {
+    margin: 10px 0 5px;
+    color: #FFF;
+font-family: Jomolhari;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.card p {
+    font-size: 14px;
+    color: #FFF;
+font-family: Jomolhari;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
